@@ -1,3 +1,4 @@
+
 .section {
     height: 100vh;
     border: 2px solid black;
@@ -6,6 +7,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: snow;
 
 }
 
@@ -17,7 +23,7 @@
     font-size: 2.5rem;
 
 }
-.ctrl  button{
+.ctrl  {
     display: flex;
     gap: 0.5rem;
     justify-content: center;
